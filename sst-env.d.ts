@@ -5,6 +5,11 @@
 
 declare module "sst" {
   export interface Resource {
+    "AutopruneApi": {
+      "name": string
+      "type": "sst.aws.Function"
+      "url": string
+    }
     "AutopruneWeb": {
       "type": "sst.aws.Nextjs"
       "url": string
