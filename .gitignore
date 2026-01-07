@@ -1,3 +1,5 @@
 trash/*
 node_modules/*
 .sst/*
+.env
+.next/*
